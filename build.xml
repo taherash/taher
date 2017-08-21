@@ -1,0 +1,8 @@
+<project name="Sample Test  Project" default="archivesource">
+        <target name="archivesource">
+            <war destfile="dist/testapp.war">
+                <fileset dir="WebContent"/>
+            </war>
+	</target>
+</project>
+
